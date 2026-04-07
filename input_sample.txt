@@ -1,0 +1,53 @@
+---
+<   >
+ ---
+BOARD_SIZE
+PAWNS_NUMBER
+IS_BOARD_CORRECT
+IS_GAME_OVER
+
+    ---
+ --< r >--
+<   >-<   >
+ --<   >--
+    ---
+BOARD_SIZE
+PAWNS_NUMBER
+IS_BOARD_CORRECT
+IS_GAME_OVER
+
+       ---
+    --<   >--
+ --< b >-<   >--
+< b >-< r >-<   >
+ --< r >-<   >--
+    --< r >--
+       ---
+BOARD_SIZE
+IS_BOARD_CORRECT
+IS_GAME_OVER
+CAN_RED_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
+CAN_BLUE_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
+
+       ---
+    --<   >--
+ --<   >-< b >--
+<   >-< r >-< b >
+ --< r >-< b >--
+    --< r >--
+       ---
+IS_BOARD_POSSIBLE
+CAN_RED_WIN_IN_1_MOVE_WITH_NAIVE_OPPONENT
+
+          ---
+       --< b >--
+    --< r >-< b >--
+ --< r >-< r >-< b >--
+< b >-< b >-< r >-< b >
+ --< r >-< b >-< b >--
+    --< r >-< r >--
+       --< r >--
+          ---
+IS_BOARD_CORRECT
+IS_GAME_OVER
+IS_BOARD_POSSIBLE
